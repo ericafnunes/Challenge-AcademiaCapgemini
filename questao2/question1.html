@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>#Questão02</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Mono:regular" rel="stylesheet" />
+    <link rel='stylesheet' href='question2.css' type='text/css' />
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" placeholder="Digite seu nome" required="true">
+
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" placeholder="Escolha uma senha forte" required="true">
+
+            <input id="enviar" type="submit" value="Enviar" style="text-align: center;">
+        </form>
+    </div>
+
+    <div id="errors">
+        <h3>Uma senha forte precisa:</h3>
+        <p id="min" class="erro">Uma letra minúscula </p>
+        <p id="mais" class="erro">Uma letra maiúscula</p>
+        <p id="numero" class="erro">Um dígito</p>
+        <p id="caracter" class="erro">Um caracter especial</p>
+        <p id="qdte" class="erro">Mínimo 6 caracteres</p>
+        <div id="imagemsenha" alt="check de senha forte"></div>
+    </div>
+    <script src="./question2.js"></script>
+</body>

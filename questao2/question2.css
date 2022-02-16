@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0 auto;
+  font-family: 'PT Mono', monospace;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  .container {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: left;
+  }
+  #errors {
+    display:none;
+    color: #000;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  input[type=submit] {
+    background-color: cornflowerblue;
+    color: white;
+  }
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .valid {
+    color: green;
+  }
+  input {
+    all: unset;
+    width: 350px;
+    padding: 12px;
+    border: 1px solid rgb(236, 159, 16);
+    box-sizing: border-box;
+    margin-top: 2px;
+    margin-bottom: 13px;
+  }
+
+label{
+margin-right: 295px;
+font-size: 18px;
+color:cornflowerblue;
+font-weight: bold;
+}
+
+  h3{
+    margin-bottom: 20px;
+  }
+
+  input:focus {
+    background-color: rgb(236, 159, 16);
+  }
+
+  .valid:before {
+    position: relative;
+    left: -35px;
+  }
+  .erro {
+    color: red;
+  }
+  .invalid:before {
+    position: relative;
+    left: -35px;
+  }
+
