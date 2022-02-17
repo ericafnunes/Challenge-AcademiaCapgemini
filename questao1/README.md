@@ -1,18 +1,22 @@
-## Getting Started
+![](/questao1/Captura de tela de 2022-02-17 18-14-37.png)
+## Feito a resolução utilizando JAVA e a IDE VS Code com a extensão Extension Pack for Java.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
+### Para rodar essa solução você precisa: 
 
-The workspace contains two folders by default, where:
+ #### 1. Utilizar qualquer compilador JAVA.
+ #### 2. Instalar o JDK.
+ #### 3. Estar com variável PATH configurada.
+ #### 4. Após toda configuração: 
+ #### 5. Rodar o arquivo App.java que está dentro da pasta 'src'
+ #### 6. A resolução do exercicio - saída no terminal se for digitado o número 6 será: 
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+<div>
+<img src="/questao1/Captura de tela de 2022-02-17 18-14-37.png">
+</div>
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+
