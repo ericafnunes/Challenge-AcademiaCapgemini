@@ -13,7 +13,7 @@ function qtdsenha() {
   let senha = document.getElementById('password');
   let qtdeCaracteres = senha.value.length;
   if (qtdeCaracteres < 6) {
-    alert(`Sua senha tem ${qtdeCaracteres} caracteres! O mínimo necessário é 6 caracteres, e sua senha precisa de mais ${6 - qtdeCaracteres}`)
+    alert(`A senha digitada tem ${qtdeCaracteres} caracteres. O mínimo são 6 caracteres para senha, a senha precisa de mais ${6 - qtdeCaracteres} caracteres para ser válida.`)
   }
 }
 
@@ -37,14 +37,7 @@ senha.onkeyup = function () {
   } else {
     min.classList.add("erro");
   }
-
-  // enviar.onclick = function () {
-  //   const qtdeCaracteres = document.getElementById('senha').value;
-  //   if (qtdeCaracteres - 6) {
-  //     alert(`Sua senha tem ${qtdeCaracteres} caracteres! O mínimo necessário é 6 caracteres, e sua senha precisa de mais ${6 - qtdeCaracteres} caracteres para ser segura!`);
-  //   }
-  // }
-
+  
   let upperCaseLetters = /[A-Z]/g;
   if (senha.value.match(upperCaseLetters)) {
     document.getElementById("mais").style.display = "none";
