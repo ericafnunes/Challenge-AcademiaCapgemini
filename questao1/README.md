@@ -8,7 +8,7 @@
  #### 2. Instalar o JDK.
  #### 3. Estar com variável PATH configurada.
  #### 4. Após toda configuração: 
- #### 5. Rodar o arquivo App.java que está dentro da pasta 'src'
+ #### 5. Rodar o arquivo App.java que está dentro da pasta 'src'.
  #### 6. A resolução do exercicio - saída no terminal se for digitado o número 6 será: 
 
 <div>
