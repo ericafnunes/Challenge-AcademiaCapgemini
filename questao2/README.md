@@ -9,4 +9,4 @@
  #### 2. Preencha os campos Nome e Senha.
  #### 3. Clique no botão enviar.
  
- #####  Alem da validação obrigatória exigida no exercicio, exibe todas as validações. 
+ #####  Alem da validação obrigatória exigida no exercicio, exibe também todas as validações. 
