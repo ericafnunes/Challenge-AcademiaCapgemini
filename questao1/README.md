@@ -1,4 +1,4 @@
-![](/questao1/resultado.png)
+
 ## Feito a resolução utilizando JAVA e a IDE VS Code com a extensão Extension Pack for Java.
 
 
