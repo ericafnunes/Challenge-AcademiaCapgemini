@@ -4,7 +4,19 @@ let numero = document.getElementById("numero");
 let caracter = document.getElementById("caracter");
 let min = document.getElementById("min");
 let qdte = document.getElementById("qdte");
-let senhaForte = document.getElementById("imagemSenhaForte")
+let enviar = document.getElementById("enviar")
+let senhaForte = document.getElementById("imagemSenhaForte");
+
+
+
+function qtdsenha() {
+  let senha = document.getElementById('password');
+  let qtdeCaracteres = senha.value.length;
+  if (qtdeCaracteres < 6) {
+    alert(`Sua senha tem ${qtdeCaracteres} caracteres! O mínimo necessário é 6 caracteres, e sua senha precisa de mais ${6 - qtdeCaracteres}`)
+  }
+}
+
 senha.onfocus = function () {
   document.getElementById("errors").style.display = "block";
 }
@@ -13,6 +25,11 @@ senha.onblur = function () {
   document.getElementById("errors").style.display = "none";
 }
 
+senha.onblur = function () {
+  document.getElementById()
+}
+
+
 senha.onkeyup = function () {
   let lowerCaseLetters = /[a-z]/g;
   if (senha.value.match(lowerCaseLetters)) {
@@ -20,6 +37,13 @@ senha.onkeyup = function () {
   } else {
     min.classList.add("erro");
   }
+
+  // enviar.onclick = function () {
+  //   const qtdeCaracteres = document.getElementById('senha').value;
+  //   if (qtdeCaracteres - 6) {
+  //     alert(`Sua senha tem ${qtdeCaracteres} caracteres! O mínimo necessário é 6 caracteres, e sua senha precisa de mais ${6 - qtdeCaracteres} caracteres para ser segura!`);
+  //   }
+  // }
 
   let upperCaseLetters = /[A-Z]/g;
   if (senha.value.match(upperCaseLetters)) {
