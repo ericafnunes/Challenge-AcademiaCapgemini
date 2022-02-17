@@ -1,4 +1,4 @@
-![](/questao1/Captura de tela de 2022-02-17 18-14-37.png)
+![](/questao1/resultado.png)
 ## Feito a resolução utilizando JAVA e a IDE VS Code com a extensão Extension Pack for Java.
 
 
@@ -12,7 +12,7 @@
  #### 6. A resolução do exercicio - saída no terminal se for digitado o número 6 será: 
 
 <div>
-<img src="/questao1/Captura de tela de 2022-02-17 18-14-37.png">
+<img src="/questao1/resultado.png">
 </div>
 
 
