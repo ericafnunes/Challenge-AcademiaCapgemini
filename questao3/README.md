@@ -1,4 +1,7 @@
-## Para rodar esse solução você precisa de :
+## Feito a resolução utilizando JAVASCRIPT.
+ 
+
+### Para rodar esse solução você precisa de :
 
 <div>
    <img  align="center" alt="Rafa-nodejs" height="100" width="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
