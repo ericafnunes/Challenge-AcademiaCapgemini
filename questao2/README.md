@@ -1,8 +1,8 @@
-## Feito a resolução utilizando HTML, CSS E JAVASCRIPT. 
+## :rocket: Feito a resolução utilizando HTML, CSS E JAVASCRIPT. 
 
 
 
-### Para rodar essa solução:
+### :round_pushpin:  Para rodar essa solução:
 
 
  #### 1. Abra no seu navegador o arquivo questao2.html
@@ -10,3 +10,5 @@
  #### 3. Clique no botão enviar.
  
  #####  Alem da validação obrigatória exigida no exercicio, exibe também todas as validações. 
+ 
+ 
