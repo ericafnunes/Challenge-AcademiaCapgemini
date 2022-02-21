@@ -1,8 +1,8 @@
 
-## Feito a resolução utilizando JAVA e a IDE VS Code com a extensão Extension Pack for Java.
+## :rocket: Feito a resolução utilizando JAVA e a IDE VS Code com a extensão Extension Pack for Java.
 
 
-### Para rodar essa solução você precisa: 
+### :round_pushpin:  Para rodar essa solução você precisa: 
 
  #### 1. Utilizar qualquer compilador JAVA.
  #### 2. Instalar o JDK.
